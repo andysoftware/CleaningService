@@ -62,3 +62,5 @@ typings/
 
 # ignore front-end builds
 /front-end/dist/*
+# ignore symbolic link
+/back-end/view/*

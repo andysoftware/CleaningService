@@ -2,8 +2,10 @@
   "name": "package.json",
   "version": "0.0.1",
   "description": "This is a group project",
-  "main": "index.js",
+  "main": "back-end/app.js",
   "scripts": {
+    "clean": "cd back-end/public/view && rm *",
+    "build": "cd front-end && npm install && ng build --prod && cd dist/cleaning-service/ && ln -s * ../../../back-end/public/view",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +20,5 @@
   "bugs": {
     "url": "https://github.com/andysoftware/CleaningService/issues"
   },
-  "homepage": "https://github.com/andysoftware/CleaningService#readme"
+   "homepage": "https://github.com/andysoftware/CleaningService#readme"
 }

@@ -64,3 +64,8 @@ typings/
 /front-end/dist/*
 # ignore symbolic link
 /back-end/view/*
+
+# ignore node-modules front-end
+/front-end/node-modules
+# ignore node-modules back-end
+/back-end/node-modules

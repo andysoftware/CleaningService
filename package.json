@@ -4,8 +4,8 @@
   "description": "This is a group project",
   "main": "back-end/app.js",
   "scripts": {
+    "start": "node back-end/app.js",
     "clean": "cd back-end/public/view && rm *",
-    "build": "cd front-end && npm install && ng build --prod && cd dist/cleaning-service/ && ln -s * ../../../back-end/public/view",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

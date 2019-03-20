@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/andysoftware/CleaningService/issues"
   },
-   "homepage": "https://github.com/andysoftware/CleaningService#readme"
+  "engines": {
+    "node": "10.x"
+  },
+  "homepage": "https://github.com/andysoftware/CleaningService#readme"
 }

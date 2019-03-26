@@ -24,5 +24,10 @@
   "engines": {
     "node": "10.x"
   },
-  "homepage": "https://github.com/andysoftware/CleaningService#readme"
+  "homepage": "https://github.com/andysoftware/CleaningService#readme",
+  "dependencies": {
+    "@angular/material": "^7.3.6",
+    "angularfire2": "^5.1.2",
+    "firebase": "^5.9.1"
+  }
 }

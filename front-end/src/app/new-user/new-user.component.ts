@@ -19,9 +19,9 @@ export class NewUserComponent implements OnInit {
 
   ngOnInit() {
   }
-  addUser(user: User): void {
+  addUser(user: any): void {
     //Add the user to the collection
-    user = new User("hello","hello","hello","hello","hello");
+    let newUser = new User(user);
     this.users.add(user);
   } //addUser
   updateUser(id, update): void {

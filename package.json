@@ -4,6 +4,7 @@
   "description": "This is a group project",
   "main": "back-end/app.js",
   "scripts": {
+    "install": "cd front-end && npm install",
     "build": "cd back-end && npm install",
     "start": "node back-end/app.js",
     "clean": "cd back-end/public/view && rm *",

@@ -1,6 +1,16 @@
+sudo: required
 language: node_js
+dist: trusty
 node_js:
   - "10"
+branches:
+  only:
+    - develop
+    - master
 before_script:
-  - export DISPLAY=:99.0
-  - sh -e /etc/init.d/xvfb start
+  - npm install -g @angular/cli
+  - npm install
+script:
+  - cd front-end
+  - npm run test-headless
+  

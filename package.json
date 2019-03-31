@@ -9,7 +9,7 @@
     "buildback":  "cd back-end && npm run build",
     "build": "npm run buildfront && npm run buildback",
     "start": "node back-end/app.js",
-    "clean": "cd back-end/public/view && rm *",
+    "clean": "cd back-end/public/view/ && rm *",
     "testfront": "cd front-end && npm run test-headless",
     "testback": "cd back-end && npm run test"
   },

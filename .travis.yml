@@ -11,6 +11,6 @@ before_script:
   - npm install -g @angular/cli
   - npm install
 script:
-  - npm test testfront
-  - npm test testback
+  - npm run testfront
+  - npm run testback
   - npm run build

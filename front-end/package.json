@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod && cd dist/cleaning-service && cp -f * ../../../back-end/public/view",
+    "buildprod": "ng build --prod && cd dist/cleaning-service && cp -f * ../../../back-end/public/view",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",

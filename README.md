@@ -4,7 +4,7 @@ Development branch:
 
 [![Build Status](https://travis-ci.com/andysoftware/CleaningService.svg?branch=develop)](https://travis-ci.com/andysoftware/CleaningService)
 
-Master branch: 
+Master branch:
 
 [![Build Status](https://travis-ci.com/andysoftware/CleaningService.svg?branch=master)](https://travis-ci.com/andysoftware/CleaningService)
 
@@ -21,5 +21,3 @@ Master branch:
    N.S.                       |         Y.K.             |     D.B.                | A.B.                 |
 --------------------------  |  ---------------------------- | -----------------------------| ------------------------------|
 @Nazerke<br>seinaz1997@gmail.com|@Yuri<br>kimyuri31@gmail.com| @Dulguun<br>dulguunb@protonmail.com |@Ahmed<br>blejahmed@gmail.com
-
-

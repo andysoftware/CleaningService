@@ -7,7 +7,7 @@
     "install": "cd front-end && npm install && cd ../back-end && npm install",
     "buildfront": "cd front-end && npm run buildprod",
     "buildback":  "cd back-end && npm run build",
-    "build": "npm run buildfront && npm run buildback",
+    "build": "cd back-end && npm install",
     "start": "node back-end/app.js",
     "clean": "cd back-end/public/view/ && rm *",
     "testfront": "cd front-end && npm run test-headless",

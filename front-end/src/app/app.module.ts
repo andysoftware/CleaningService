@@ -7,11 +7,17 @@ import { AngularFirestoreModule,AngularFirestore } from '@angular/fire/firestore
 import { environment } from '../environments/environment';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { UserComponent } from './user/user.component';
+import { CleanerComponent } from './cleaner/cleaner.component';
+import { CustomerComponent } from './customer/customer.component';
+import { RequestComponent } from './request/request.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserComponent
+    UserComponent,
+    CleanerComponent,
+    CustomerComponent,
+    RequestComponent
   ],
   imports: [
     BrowserModule,

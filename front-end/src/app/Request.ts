@@ -1,7 +1,7 @@
 export class Request{
     name:String;
-    suggestedPrice:int;
-	finalPrice:int;
+    suggestedPrice:number;
+	finalPrice:number;
 	areaToClean:String[];
 	
     constructor(request:any){

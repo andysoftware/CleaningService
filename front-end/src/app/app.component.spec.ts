@@ -8,6 +8,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { environment } from '../environments/environment';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {UserComponent} from './user/user.component';
+import {AboutComponent} from './about/about.component';
+import {MainMenuBarComponent} from './main-menu-bar/main-menu-bar.component';
 describe('AppComponent', () => {
   let userComponent: UserComponent;
 
@@ -23,7 +25,9 @@ describe('AppComponent', () => {
       ],
       declarations: [
         AppComponent,
-        UserComponent
+        UserComponent,
+        AboutComponent,
+        MainMenuBarComponent
       ],
       providers: [AngularFirestore]
     }).compileComponents();

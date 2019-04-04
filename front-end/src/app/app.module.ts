@@ -10,14 +10,17 @@ import { UserComponent } from './user/user.component';
 import { CleanerComponent } from './cleaner/cleaner.component';
 import { CustomerComponent } from './customer/customer.component';
 import { RequestComponent } from './request/request.component';
-
+import {AboutComponent} from './about/about.component';
+import {MainMenuBarComponent} from './main-menu-bar/main-menu-bar.component';
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
     CleanerComponent,
     CustomerComponent,
-    RequestComponent
+    RequestComponent,
+    MainMenuBarComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

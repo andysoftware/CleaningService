@@ -1,7 +1,8 @@
-export class Customer implements User{
+import { User } from './User';
+export class Customer extends User{
 	
     constructor(customer:any){
-		super();
-		role = "customer";
+		super(customer);
+		this.role = "customer";
     }
 }

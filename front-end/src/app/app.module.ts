@@ -12,6 +12,7 @@ import { CustomerComponent } from './customer/customer.component';
 import { RequestComponent } from './request/request.component';
 import {AboutComponent} from './about/about.component';
 import {MainMenuBarComponent} from './main-menu-bar/main-menu-bar.component';
+import {MainComponent} from './main/main.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,8 @@ import {MainMenuBarComponent} from './main-menu-bar/main-menu-bar.component';
     CustomerComponent,
     RequestComponent,
     MainMenuBarComponent,
-    AboutComponent
+    AboutComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

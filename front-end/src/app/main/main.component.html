@@ -34,13 +34,9 @@
 		 </section>	 
 		 <section class="content">
 		 	<div id="contact">
-		 		<div class="address">
+		 		<div class="address" *ngFor="let info of infos">
 		 		    <br><br><br><br><br><br><br><br><br>
-		 			<p>Email: 1298374@gmail.com </p>
-		 			<p>Mobile: +362121111 </p>
-		 			<p>Address: Cleaning Service Ltd., 1133 Budapest, Hungary </p>
-		 			<p> Geo-location: 42.111,45.7789</p>
-
+					<p>{{info.name}} : {{info.inf}}</p>
 		 		</div>
 		 	</div>
 		 </section>

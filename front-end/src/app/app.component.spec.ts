@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {UserComponent} from './user/user.component';
 import {AboutComponent} from './about/about.component';
 import {MainMenuBarComponent} from './main-menu-bar/main-menu-bar.component';
+import {MainComponent} from './main/main.component'
 describe('AppComponent', () => {
   let userComponent: UserComponent;
 
@@ -27,7 +28,8 @@ describe('AppComponent', () => {
         AppComponent,
         UserComponent,
         AboutComponent,
-        MainMenuBarComponent
+        MainMenuBarComponent,
+        MainComponent
       ],
       providers: [AngularFirestore]
     }).compileComponents();

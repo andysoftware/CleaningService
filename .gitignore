@@ -67,3 +67,4 @@ typings/
 /front-end/node-modules
 # ignore node-modules back-end
 /back-end/node-module
+.DS_Store

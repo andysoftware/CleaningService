@@ -1,12 +1,14 @@
 export class User{
+    id: String;
     name:String;
-    verified:boolean;
     avatar: String;
     role: String;
-    constructor(user:any){
-        this.name = user.name;
-        this.verified = user.verified;
-        this.avatar = user.avatar;
-        this.role = user.role;
+    description:String;
+	
+	constructor(user:any){
+		this.id = user.id;
+		this.name = user.name;
+		this.avatar = user.avatar;
+		this.description = user.description;
     }
 }

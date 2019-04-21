@@ -28,7 +28,9 @@
     "firebase": "^5.9.1",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
-    "zone.js": "~0.8.26"
+    "zone.js": "~0.8.26",
+    "compodoc": "~0.0.41",
+    "@angular/cli": "~7.3.5"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.13.0",

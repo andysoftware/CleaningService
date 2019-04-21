@@ -1,33 +1,32 @@
 import { Component, OnInit } from '@angular/core';
 import { AngularFirestore, AngularFirestoreCollection } from '@angular/fire/firestore';
 import { Observable } from 'rxjs';
-import {User} from '../User';
+import { User } from '../User';
 @Component({
   selector: 'app-user',
   templateUrl: './user.component.html',
   styleUrls: ['./user.component.css']
 })
 export class UserComponent implements OnInit {
-  users: Observable<User[]>;
+  public users: Observable<User[]>;
   private usersCollection: AngularFirestoreCollection<User>;
   constructor(private readonly afs: AngularFirestore) {
+    console.log(`AFS:`, afs, ' Type: ', typeof afs);
     this.usersCollection = this.afs.collection<User>('users');
     this.users = this.usersCollection.valueChanges();
   }
-
-  ngOnInit() {
+  public ngOnInit() {
 
   }
-  onSubmit(user:User): void{
+  public onSubmit(user: User): void {
     console.log(user);
   }
-  addUserData() {
+  public addUserData(name: String = 'Dora',
+    avatar: String = 'Dorka',
+    role: String = 'Dora',
+    description: String = 'Dora') {
     const id = this.afs.createId();
-    let name:String = 'Dora';
-    let avatar:String = 'Dorka';
-    let role: String = 'Dora';
-    let description : String ='Dora'
-    const user :User = { id, name,avatar,role,description };
+    const user: User = { id, name, avatar, role, description };
     this.usersCollection.doc(id).set(user);
   }
 

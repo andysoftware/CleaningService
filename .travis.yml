@@ -8,9 +8,10 @@ branches:
     - develop
     - master
 before_script:
+  - npm install -g @compodoc/compodoc
   - npm install -g @angular/cli
-  - npm install
 script:
   - npm run testfront
   - npm run testback
   - npm run build
+  - npm run gendocs

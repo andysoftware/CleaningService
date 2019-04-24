@@ -21,3 +21,5 @@ Master branch:
    N.S.                       |         Y.K.             |     D.B.                | A.B.                 |
 --------------------------  |  ---------------------------- | -----------------------------| ------------------------------|
 @Nazerke<br>seinaz1997@gmail.com|@Yuri<br>kimyuri31@gmail.com| @Dulguun<br>dulguunb@protonmail.com |@Ahmed<br>blejahmed@gmail.com
+# Documentation about the application (Tool-1)
+please visit: https://andysoftware.github.io/CleaningService/

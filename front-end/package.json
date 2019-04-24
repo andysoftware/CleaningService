@@ -3,13 +3,13 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build --prod && cd dist/cleaning-service && cp -f -R * ../../../back-end/public/view",
-    "buildprod": "ng build --prod && cd dist/cleaning-service && cp -f -R * ../../../back-end/public/view",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "test-headless": "ng test --watch=false --browsers=ChromeHeadless"
+    "start": "node_modules/.bin/ng serve",
+    "build": "node_modules/.bin/ng build --prod && cd dist/cleaning-service && cp -f -R * ../../../back-end/public/view",
+    "buildprod": "node_modules/.bin/ng build --prod && cd dist/cleaning-service && cp -f -R * ../../../back-end/public/view",
+    "test": "node_modules/.bin/ng test",
+    "lint": "node_modules/.bin/ng lint",
+    "e2e": "node_modules/.bin/ng e2e",
+    "test-headless": "node_modules/.bin/ng test --watch=false --browsers=ChromeHeadless"
   },
   "private": true,
   "dependencies": {

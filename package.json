@@ -12,7 +12,7 @@
     "clean": "cd back-end/public/view/ && rm *",
     "testfront": "cd front-end && npm run test-headless",
     "testback": "cd back-end && npm run test",
-    "gendocs": "cd front-end && compodoc -p tsconfig.json && cd documentation && cp -R -f * ../../back-end/public/documentation",
+    "gendocs": "cd front-end && node_modules/.bin/compodoc -p tsconfig.json && cd documentation && cp -R -f * ../../back-end/public/documentation",
     "precommit": "cd front-end && lint-staged"
   },
   "repository": {

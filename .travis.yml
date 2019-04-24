@@ -1,0 +1,24 @@
+sudo: required
+language: node_js
+dist: trusty
+node_js:
+  - "10"
+branches:
+  only:
+    - develop
+    - master
+before_script:
+  - npm install -g @compodoc/compodoc
+  - npm install -g @angular/cli
+script:
+  - npm run testfront
+  - npm run testback
+  - npm run build
+  - npm run gendocs
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  on:
+    branch: master

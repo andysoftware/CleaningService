@@ -1,0 +1,41 @@
+{
+  "name": "package.json",
+  "version": "0.0.1",
+  "description": "This is a group project",
+  "main": "back-end/app.js",
+  "scripts": {
+    "install": "cd front-end && npm install && cd ../back-end && npm install",
+    "buildfront": "cd front-end && npm run buildprod",
+    "buildback": "cd back-end && npm run build",
+    "build": "cd back-end && npm install && cd ../ && npm run install && npm run buildfront",
+    "start": "node back-end/app.js",
+    "clean": "cd back-end/public/view/ && rm *",
+    "testfront": "cd front-end && npm run test-headless",
+    "testback": "cd back-end && npm run test",
+    "gendocs": "cd front-end && node_modules/.bin/compodoc -p tsconfig.json && cd documentation && cp -R -f * ../../back-end/public/documentation && cp -R -f * ../../docs",
+    "precommit": "cd front-end && lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andysoftware/CleaningService.git"
+  },
+  "keywords": [
+    "CleaninService"
+  ],
+  "author": "Dulguun,Ahmed,Nazerke,Yuri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andysoftware/CleaningService/issues"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "homepage": "https://github.com/andysoftware/CleaningService#readme",
+  "dependencies": {
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.5"
+  },
+  "lint-staged": {
+    "*.ts": "ng lint CleaningService --files"
+  }
+}

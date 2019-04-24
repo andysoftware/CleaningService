@@ -11,6 +11,7 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
+app.use('/documentation',express.static(path.join(__dirname, 'public/documentation')));
 app.use(express.static(path.join(__dirname, 'public/view')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);

@@ -3,6 +3,6 @@ export class Customer extends User{
 	
     constructor(customer:any){
 		super(customer);
-		this.role = "customer";
+		this.role = 'customer';
     }
 }

@@ -10,7 +10,7 @@ export class MainMenuBarComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.menuItems = [ {name:"Home",link:"main#login"},{name:"Contact",link:"main#contact"},{name:"About",link:"about"}]
+    this.menuItems = [ {name:'Home',link:'main#login'},{name:'Contact',link:'main#contact'},{name:'About',link:'about'}]
   }
 
 }

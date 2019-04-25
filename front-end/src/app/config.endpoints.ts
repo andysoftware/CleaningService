@@ -1,3 +1,3 @@
 export class Config{
-    usersEndPoint = "/users"
+    usersEndPoint = '/users'
 }

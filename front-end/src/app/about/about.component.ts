@@ -11,10 +11,10 @@ export class AboutComponent implements OnInit {
 
   ngOnInit() {
     this.contactContents = [
-      {type:"text",placeHolder:"Service Name",requiredName:"Name"},
-      {type:"number",placeHolder:"How many times",requiredName:"Quantity"},
-      {type:"datetime-local",placeHolder:"Date and Time",requiredName:"Date"},
-      {type:"text",placeHolder:"Message \special requriements",requiredName:"Message"}
+      {type:'text',placeHolder:'Service Name',requiredName:'Name'},
+      {type:'number',placeHolder:'How many times',requiredName:'Quantity'},
+      {type:'datetime-local',placeHolder:'Date and Time',requiredName:'Date'},
+      {type:'text',placeHolder:'Message \special requriements',requiredName:'Message'}
     ]
   }
 

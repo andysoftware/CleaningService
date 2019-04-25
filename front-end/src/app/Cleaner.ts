@@ -3,6 +3,6 @@ export class Cleaner extends User{
 	
     constructor(cleaner:any){
 		super(cleaner);
-		this.role = "cleaner";
+		this.role = 'cleaner';
     }
 }

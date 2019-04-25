@@ -18,9 +18,9 @@ describe('MainMenuBarComponent', () => {
   });
 
   it('testing order of buttons', () => {
-    expect(component.menuItems[0]).toEqual({name:"Home",link:"main#login"});
-    expect(component.menuItems[1]).toEqual({name:"Contact",link:"main#contact"});
-    expect(component.menuItems[2]).toEqual({name:"About",link:"about"});
+    expect(component.menuItems[0]).toEqual({name:'Home',link:'main#login'});
+    expect(component.menuItems[1]).toEqual({name:'Contact',link:'main#contact'});
+    expect(component.menuItems[2]).toEqual({name:'About',link:'about'});
   });
 
 });

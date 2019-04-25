@@ -21,8 +21,8 @@ describe('RequestComponent', () => {
 
   it('should create', () => {
     let name:String = 'RequestName';
-    let suggestedPrice:number = 100;
-    let finalPrice: number = 89;
+    let suggestedPrice = 100;
+    let finalPrice = 89;
     let areaToClean : String[] = ['living room', 'kitchen'];
     const request:Request = {name, suggestedPrice, finalPrice, areaToClean};
 	expect(request.name).toEqual(name);

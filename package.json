@@ -13,7 +13,7 @@
     "testfront": "cd front-end && npm run test-headless",
     "testback": "cd back-end && npm run test",
     "gendocs": "cd front-end && node_modules/.bin/compodoc -p tsconfig.json && cd documentation && cp -R -f * ../../back-end/public/documentation && cp -R -f * ../../",
-    "precommit": "cd front-end && lint-staged"
+    "prepush": "cd front-end && ng lint"
   },
   "repository": {
     "type": "git",

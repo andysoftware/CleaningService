@@ -23,12 +23,12 @@ Master branch:
 @Nazerke<br>seinaz1997@gmail.com|@Yuri<br>kimyuri31@gmail.com| @Dulguun<br>dulguunb@protonmail.com |@Ahmed<br>blejahmed@gmail.com
 # Documentation about the application (Tool-1)
 Please visit: https://andysoftware.github.io/CleaningService/
-# TSlint is enabled (Tool-2) for error checking 
-Please check `front-end/tslint.json` file to comply with our typescript writing requirement
+# TSlint is enabled (Tool-2)
+Please check `front-end/tslint.json` file to comply with our linting requirements.
 
 ### To run the  whole program:
 ```
-npm build
+npm run build
 npm start
 
 ```

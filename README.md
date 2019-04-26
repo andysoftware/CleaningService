@@ -28,7 +28,7 @@ Please check `front-end/tslint.json` file to comply with our typescript writing 
 
 ### To run the  whole program:
 ```
-npm install -g angular-cli@latest
+npm build
 npm start
 
 ```

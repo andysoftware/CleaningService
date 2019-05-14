@@ -14,12 +14,16 @@ script:
   - npm run lint
   - npm run testfront
   - npm run testback
+  - npm run buildfront
   - npm run build
   - npm run gendocs
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  target-branch: 
+    - master
+    - gh-pages 
   keep_history: true
   on:
-    branch: master
+    all_branches: true  

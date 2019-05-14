@@ -6,7 +6,6 @@ node_js:
 branches:
   only:
     - develop
-    - master
 before_script:
   - npm install -g @compodoc/compodoc
   - npm install -g @angular/cli
@@ -21,6 +20,7 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  target-branch: master
   keep_history: true
   on:
     all_branches: true  

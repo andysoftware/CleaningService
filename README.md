@@ -18,9 +18,11 @@ Master branch:
 
 > Disclaimer: This project is developed for the Tools of Software Projects class and never intented to be used in any production.**USE this software at your own risk!**
 
+   N.S.                       |         Y.K.             |     D.B.                | A.B.                 |
+--------------------------  |  ---------------------------- | -----------------------------| ------------------------------|
+@Nazerke<br>seinaz1997@gmail.com|@Yuri<br>kimyuri31@gmail.com| @Dulguun<br>dulguunb@protonmail.com |@Ahmed<br>blejahmed@gmail.com
 # Documentation about the application (Tool-1)
 Please visit: https://andysoftware.github.io/CleaningService/
-
 # TSlint is enabled (Tool-2)
 Please check `front-end/tslint.json` file to comply with our linting requirements.
 

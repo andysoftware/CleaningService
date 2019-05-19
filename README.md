@@ -1,6 +1,4 @@
-# Cleaning Service Web App: ANDY
-
-[![Build Status](https://travis-ci.com/andysoftware/CleaningService.svg?branch=develop)](https://travis-ci.com/andysoftware/CleaningService)
+# Cleaning Service Web App: ANDY [![Build Status](https://travis-ci.com/andysoftware/CleaningService.svg?branch=develop)](https://travis-ci.com/andysoftware/CleaningService)
 
       This is a web application dedicated to create a platform that makes it easier to both offer and
       find the cleaning services of your choice in your vicinity. The application gives the opportunity for
@@ -14,13 +12,5 @@
 
 # Documentation about the application (Tool-1)
 Please visit: https://andysoftware.github.io/CleaningService/
-
 # TSlint is enabled (Tool-2)
 Please check `front-end/tslint.json` file to comply with our linting requirements.
-
-### To run the  whole program:
-```
-npm run build
-npm start
-
-```

@@ -24,17 +24,17 @@
 <title>cluster_AppModule</title>
 <polygon fill="none" stroke="black" stroke-dasharray="1,5" points="8,-70 8,-268 2232,-268 2232,-70 8,-70"/>
 </g>
-<g id="clust11" class="cluster">
-<title>cluster_AppModule_imports</title>
-<polygon fill="none" stroke="black" points="1335,-78 1335,-130 2224,-130 2224,-78 1335,-78"/>
-</g>
 <g id="clust13" class="cluster">
 <title>cluster_AppModule_bootstrap</title>
 <polygon fill="none" stroke="black" points="963,-208 963,-260 1087,-260 1087,-208 963,-208"/>
 </g>
 <g id="clust14" class="cluster">
 <title>cluster_AppModule_providers</title>
-<polygon fill="none" stroke="black" points="1157,-78 1157,-130 1327,-130 1327,-78 1157,-78"/>
+<polygon fill="none" stroke="black" points="2054,-78 2054,-130 2224,-130 2224,-78 2054,-78"/>
+</g>
+<g id="clust11" class="cluster">
+<title>cluster_AppModule_imports</title>
+<polygon fill="none" stroke="black" points="1157,-78 1157,-130 2046,-130 2046,-78 1157,-78"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_AppModule_declarations</title>
@@ -157,74 +157,74 @@
 <!-- BrowserModule -->
 <g id="node10" class="node">
 <title>BrowserModule</title>
-<polygon fill="#8dd3c7" stroke="black" points="2216.47,-122 2213.47,-126 2192.47,-126 2189.47,-122 2109.53,-122 2109.53,-86 2216.47,-86 2216.47,-122"/>
-<text text-anchor="middle" x="2163" y="-99.8" font-family="Times,serif" font-size="14.00">BrowserModule</text>
+<polygon fill="#8dd3c7" stroke="black" points="2038.47,-122 2035.47,-126 2014.47,-126 2011.47,-122 1931.53,-122 1931.53,-86 2038.47,-86 2038.47,-122"/>
+<text text-anchor="middle" x="1985" y="-99.8" font-family="Times,serif" font-size="14.00">BrowserModule</text>
 </g>
 <!-- BrowserModule&#45;&gt;AppModule -->
 <g id="edge9" class="edge">
 <title>BrowserModule&#45;&gt;AppModule</title>
-<path fill="none" stroke="black" d="M2163,-122.09C2163,-145.13 2163,-182 2163,-182 2163,-182 1076.85,-182 1076.85,-182"/>
-<polygon fill="black" stroke="black" points="1076.85,-178.5 1066.85,-182 1076.85,-185.5 1076.85,-178.5"/>
+<path fill="none" stroke="black" d="M1985,-122.04C1985,-143.66 1985,-177 1985,-177 1985,-177 1076.87,-177 1076.87,-177"/>
+<polygon fill="black" stroke="black" points="1076.87,-173.5 1066.87,-177 1076.87,-180.5 1076.87,-173.5"/>
 </g>
 <!-- BrowserAnimationsModule -->
 <g id="node11" class="node">
 <title>BrowserAnimationsModule</title>
-<polygon fill="#8dd3c7" stroke="black" points="2091.3,-122 2088.3,-126 2067.3,-126 2064.3,-122 1918.7,-122 1918.7,-86 2091.3,-86 2091.3,-122"/>
-<text text-anchor="middle" x="2005" y="-99.8" font-family="Times,serif" font-size="14.00">BrowserAnimationsModule</text>
+<polygon fill="#8dd3c7" stroke="black" points="1913.3,-122 1910.3,-126 1889.3,-126 1886.3,-122 1740.7,-122 1740.7,-86 1913.3,-86 1913.3,-122"/>
+<text text-anchor="middle" x="1827" y="-99.8" font-family="Times,serif" font-size="14.00">BrowserAnimationsModule</text>
 </g>
 <!-- BrowserAnimationsModule&#45;&gt;AppModule -->
 <g id="edge10" class="edge">
 <title>BrowserAnimationsModule&#45;&gt;AppModule</title>
-<path fill="none" stroke="black" d="M2005,-122.04C2005,-143.66 2005,-177 2005,-177 2005,-177 1076.8,-177 1076.8,-177"/>
-<polygon fill="black" stroke="black" points="1076.8,-173.5 1066.8,-177 1076.8,-180.5 1076.8,-173.5"/>
+<path fill="none" stroke="black" d="M1827,-122.22C1827,-142.37 1827,-172 1827,-172 1827,-172 1076.71,-172 1076.71,-172"/>
+<polygon fill="black" stroke="black" points="1076.71,-168.5 1066.71,-172 1076.71,-175.5 1076.71,-168.5"/>
 </g>
 <!-- AppRoutingModule -->
 <g id="node12" class="node">
 <title>AppRoutingModule</title>
-<polygon fill="#8dd3c7" stroke="black" points="1900.27,-122 1897.27,-126 1876.27,-126 1873.27,-122 1771.73,-122 1771.73,-86 1900.27,-86 1900.27,-122"/>
-<text text-anchor="middle" x="1836" y="-99.8" font-family="Times,serif" font-size="14.00">AppRoutingModule</text>
+<polygon fill="#8dd3c7" stroke="black" points="1722.27,-122 1719.27,-126 1698.27,-126 1695.27,-122 1593.73,-122 1593.73,-86 1722.27,-86 1722.27,-122"/>
+<text text-anchor="middle" x="1658" y="-99.8" font-family="Times,serif" font-size="14.00">AppRoutingModule</text>
 </g>
 <!-- AppRoutingModule&#45;&gt;AppModule -->
 <g id="edge11" class="edge">
 <title>AppRoutingModule&#45;&gt;AppModule</title>
-<path fill="none" stroke="black" d="M1836,-122.22C1836,-142.37 1836,-172 1836,-172 1836,-172 1076.9,-172 1076.9,-172"/>
-<polygon fill="black" stroke="black" points="1076.9,-168.5 1066.9,-172 1076.9,-175.5 1076.9,-168.5"/>
+<path fill="none" stroke="black" d="M1658,-122.22C1658,-140.83 1658,-167 1658,-167 1658,-167 1077.02,-167 1077.02,-167"/>
+<polygon fill="black" stroke="black" points="1077.02,-163.5 1067.02,-167 1077.02,-170.5 1077.02,-163.5"/>
 </g>
 <!-- AngularFireModule.initializeApp(args) -->
 <g id="node13" class="node">
 <title>AngularFireModule.initializeApp(args)</title>
-<polygon fill="#8dd3c7" stroke="black" points="1753.71,-122 1750.71,-126 1729.71,-126 1726.71,-122 1516.29,-122 1516.29,-86 1753.71,-86 1753.71,-122"/>
-<text text-anchor="middle" x="1635" y="-99.8" font-family="Times,serif" font-size="14.00">AngularFireModule.initializeApp(args)</text>
+<polygon fill="#8dd3c7" stroke="black" points="1575.71,-122 1572.71,-126 1551.71,-126 1548.71,-122 1338.29,-122 1338.29,-86 1575.71,-86 1575.71,-122"/>
+<text text-anchor="middle" x="1457" y="-99.8" font-family="Times,serif" font-size="14.00">AngularFireModule.initializeApp(args)</text>
 </g>
 <!-- AngularFireModule.initializeApp(args)&#45;&gt;AppModule -->
 <g id="edge12" class="edge">
 <title>AngularFireModule.initializeApp(args)&#45;&gt;AppModule</title>
-<path fill="none" stroke="black" d="M1635,-122.22C1635,-140.83 1635,-167 1635,-167 1635,-167 1076.93,-167 1076.93,-167"/>
-<polygon fill="black" stroke="black" points="1076.93,-163.5 1066.93,-167 1076.93,-170.5 1076.93,-163.5"/>
+<path fill="none" stroke="black" d="M1457,-122.03C1457,-139.06 1457,-162 1457,-162 1457,-162 1076.81,-162 1076.81,-162"/>
+<polygon fill="black" stroke="black" points="1076.81,-158.5 1066.81,-162 1076.81,-165.5 1076.81,-158.5"/>
 </g>
 <!-- AngularFirestoreModule -->
 <g id="node14" class="node">
 <title>AngularFirestoreModule</title>
-<polygon fill="#8dd3c7" stroke="black" points="1498.68,-122 1495.68,-126 1474.68,-126 1471.68,-122 1343.32,-122 1343.32,-86 1498.68,-86 1498.68,-122"/>
-<text text-anchor="middle" x="1421" y="-99.8" font-family="Times,serif" font-size="14.00">AngularFirestoreModule</text>
+<polygon fill="#8dd3c7" stroke="black" points="1320.68,-122 1317.68,-126 1296.68,-126 1293.68,-122 1165.32,-122 1165.32,-86 1320.68,-86 1320.68,-122"/>
+<text text-anchor="middle" x="1243" y="-99.8" font-family="Times,serif" font-size="14.00">AngularFirestoreModule</text>
 </g>
 <!-- AngularFirestoreModule&#45;&gt;AppModule -->
 <g id="edge13" class="edge">
 <title>AngularFirestoreModule&#45;&gt;AppModule</title>
-<path fill="none" stroke="black" d="M1421,-122.03C1421,-139.06 1421,-162 1421,-162 1421,-162 1077,-162 1077,-162"/>
-<polygon fill="black" stroke="black" points="1077,-158.5 1067,-162 1077,-165.5 1077,-158.5"/>
+<path fill="none" stroke="black" d="M1243,-122.24C1243,-137.57 1243,-157 1243,-157 1243,-157 1076.77,-157 1076.77,-157"/>
+<polygon fill="black" stroke="black" points="1076.77,-153.5 1066.77,-157 1076.77,-160.5 1076.77,-153.5"/>
 </g>
 <!-- AngularFirestore -->
 <g id="node16" class="node">
 <title>AngularFirestore</title>
-<ellipse fill="#fdb462" stroke="black" cx="1242" cy="-104" rx="77" ry="18"/>
-<text text-anchor="middle" x="1242" y="-99.8" font-family="Times,serif" font-size="14.00">AngularFirestore</text>
+<ellipse fill="#fdb462" stroke="black" cx="2139" cy="-104" rx="77" ry="18"/>
+<text text-anchor="middle" x="2139" y="-99.8" font-family="Times,serif" font-size="14.00">AngularFirestore</text>
 </g>
 <!-- AngularFirestore&#45;&gt;AppModule -->
 <g id="edge15" class="edge">
 <title>AngularFirestore&#45;&gt;AppModule</title>
-<path fill="none" stroke="black" d="M1242,-122.24C1242,-137.57 1242,-157 1242,-157 1242,-157 1076.84,-157 1076.84,-157"/>
-<polygon fill="black" stroke="black" points="1076.84,-153.5 1066.84,-157 1076.84,-160.5 1076.84,-153.5"/>
+<path fill="none" stroke="black" d="M2139,-122.09C2139,-145.13 2139,-182 2139,-182 2139,-182 1076.97,-182 1076.97,-182"/>
+<polygon fill="black" stroke="black" points="1076.97,-178.5 1066.97,-182 1076.97,-185.5 1076.97,-178.5"/>
 </g>
 </g>
 </svg>

@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/andysoftware/CleaningService#readme",
   "dependencies": {
-    "lint-staged": "^8.1.5"
+    "lint-staged": "^13.1.0"
   },
   "lint-staged": {
     "*.ts": "ng lint CleaningService --files"
